@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-<!--        <link rel="stylesheet" href="google_clone.css"> Commented out while working on functionality-->
+        <link rel="stylesheet" href="css/google_clone.css"> 
         <title>Advanced Search</title>
     </head>
     <body>
-        <header>
+        <div id="header">
             <ul id="nav_banner">
                 <li> <a href="index.html">Search</a></li>
             </ul>
-        </header>
-        <form action="https://google.com/search">
-            <input type="text" name= "as_q" placeholder="all these words">
-            <input type="text" name= "as_epq" placeholder="this exact word phrase">
-            <input type="text" name= "as_oq" placeholder="any of these words">
-            <input type="text" name= "as_eq" placeholder="none of these words">
-            <input type="submit" value="Search">
-        </form>
+        </div>
+        <div id="container">
+            <img src="artifacts/google_logo.png">
+            <form action="https://google.com/search" id="advanced_form">
+                <input type="text" name= "as_q" placeholder="all these words">
+                <input type="text" name= "as_epq" placeholder="this exact word phrase">
+                <input type="text" name= "as_oq" placeholder="any of these words">
+                <input type="text" name= "as_eq" placeholder="none of these words">
+                <input type="submit" value="Advanced Search" id="advanced_submit_button">
+            </form>
+        </div>
     </body>
 </html>

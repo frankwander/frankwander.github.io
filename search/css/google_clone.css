@@ -1,9 +1,60 @@
-ul {
+#header #nav_banner {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#header #nav_banner a {
+  text-decoration-line: none;
+  text-align: right;
+  color: #606061;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
 }
 
-body {
-  background-color: green;
+#container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#container img {
+  width: 500px;
+}
+#container form > input {
+  width: 400px;
+  height: 25px;
+  border-radius: 15px;
+  margin: 8px;
+  padding-left: 8px;
+}
+#container #search_buttons > input {
+  padding: 10px;
+  border: none;
+  background-color: #f0f0f0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#container #advanced_form > input {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 25px;
+  margin: 8px;
+  padding-left: 8px;
+  border-radius: 0px;
+}
+#container #advanced_form > #advanced_submit_button {
+  background-color: #5353ca;
+  border-color: #5353ca;
+  padding: 10px;
+  color: white;
+  height: 40px;
+  width: 400px;
 }
 
 /*# sourceMappingURL=google_clone.css.map */

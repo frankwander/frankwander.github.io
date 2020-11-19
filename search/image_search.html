@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-<!--        <link rel="stylesheet" href="google_clone.css"> Commented out while working on functionality-->
+        <link rel="stylesheet" href="css/google_clone.css"> 
         <title>Advanced Search</title>
     </head>
+
     <body>
-        <header>
+        <div id="header">
             <ul id="nav_banner">
                 <li> <a href="index.html">Search</a></li>
             </ul>
-        </header>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="hidden" name="tbm" value="isch">
-            <input type="submit" value="Google Saarch">
-        </form>
+        </div>
+
+        <div id="container"> 
+            <img src="artifacts/google_images_logo.png">
+            <form action="https://google.com/search">
+                <input type="text" name="q"> 
+                <input type="hidden" name="tbm" value="isch">
+                <div id="search_buttons"> 
+                    <input type="submit" value="Google Search">
+ <!--                   <input type="submit" value="I'm feeling Lucky" name="btnI"> -->
+                </div>
+            </form>
+        </div>
+
     </body>
 </html>
